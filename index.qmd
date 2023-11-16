@@ -2,7 +2,6 @@
 title: "weatherwebsite"
 ---
 
-This is a Quarto website.
-yoyo
+This is a weather website
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
