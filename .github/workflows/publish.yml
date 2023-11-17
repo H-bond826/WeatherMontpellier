@@ -27,9 +27,13 @@ jobs:
       - run: python3 -m pip install jupyter
       - run: python3 -m pip install -r requirements.txt
 
+      - name: Install Python dependencies
+        run: python -m pip install --upgrade pip pandas
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
