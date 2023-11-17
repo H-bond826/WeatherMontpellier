@@ -37,32 +37,26 @@ if response.status_code == 200:
     max_temp = [0 if value is None else value for value in max_temp]
     
     # minimum temperature in Celsius
-
     min_temp = data["daily"]["temperature_2m_min"]
     
     min_temp = [0 if value is None else value for value in min_temp]
     
     # get the weather code
-
     wmo = data["daily"]["weather_code"]
     
     # get the precipitation in millimeter 
-
     precipitations = data["daily"]["precipitation_sum"]
     
     # return 0 if the precipitation is None
-    
     precipitations_sum = [0 if value is None else value for value in precipitations]
 
     # get the win speed of the day in km/h
     wind_speed = data["daily"]["wind_speed_10m_max"]
     
     # return 0 if wind speed is None
-    
     wind_speed = [0 if value is None else value for value in wind_speed]
 
     # get the dates :
-
     date = data["daily"]["time"]
 else:
     print("failed to get the date")
@@ -78,11 +72,7 @@ def date_convert(date):
 
 
 # using the zip function to map the function on values of date
-# and get two lists one for days name abbreviation and the other one for the date in MM/DD format for example :
-# date = ['18-09-2024','15-11-2025']
-# we get :
-# days_name = ['Wed','Sun']
-# dates = ['18/09','15/11']
+# and get two lists one for days name abbreviation and the other one for the date in MM/DD format
 days_name, dates = zip(*[date_convert(i) for i in date])
 
 # generating images for each code that appears in our list:
@@ -100,6 +90,7 @@ for i in wmo:
     desc_img.append({"desc": get["desc"], "img": get["img"]})
 
 ## insert an html code here 
+# we put our informations into the table
 html_code = f"""
 <head>
    <!-- we used google fonts to get some icons -->
