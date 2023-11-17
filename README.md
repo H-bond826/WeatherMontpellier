@@ -1,5 +1,5 @@
 ﻿# WeatherMontpellier
-- website URL: [cette adresse](https://abelsilly.github.io/Projet_Perso/).
+- website URL: [cette adresse](https://h-bond826.github.io/WeatherMontpellier/).
 - This is a personal project is to create: a GitHub web page displaying images representing the weather forecast for the 4 next days (in Montpellier) that automatically updates. 
 
 ## Description : 
