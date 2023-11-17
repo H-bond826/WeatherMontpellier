@@ -8,6 +8,7 @@ title: "Weather in Montpellier in 4 days"
 import requests
 import json
 import pandas as pd
+import numpy as np
 from datetime import datetime, timedelta
 from IPython.display import display, HTML
 
