@@ -16,3 +16,4 @@ You will find in the table:
 - The minimum temperature in the 4th line
 - The average wind in the 5th line
 - The sum of the debits in the 6th line
+I used the icon from [openclipart.org](https://openclipart.org/search/?query=weather#google_vignette)
