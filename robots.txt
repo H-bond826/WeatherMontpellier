@@ -1,1 +1,1 @@
-Sitemap: https://github.com/H-bond826/WeatherMontpellier/sitemap.xml
+Sitemap: https://H-bond826.github.io/WeatherMontpellier/sitemap.xml
