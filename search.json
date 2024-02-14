@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Weather in Montpellier in 4 days",
     "section": "",
-    "text": "Wednesday\nToday\nThursday\n15/02\nFriday\n16/02\nSaturday\n17/02\nSunday\n18/02\n\n\nCloudy\nCloudy\nCloudy\nCloudy\nCloudy\n\n\nthermostat 19°C\nthermostat 12°C\nthermostat 16°C\nthermostat 16°C\nthermostat 13°C\n\n\nthermostat 6°C\nthermostat 8°C\nthermostat 10°C\nthermostat 6°C\nthermostat 3°C\n\n\nair 10 Km/h\nair 15 Km/h\nair 16 Km/h\nair 16 Km/h\nair 9 Km/h\n\n\nwater_drop 0 mm\nwater_drop 0.0 mm\nwater_drop 0.0 mm\nwater_drop 0.0 mm\nwater_drop 0 mm\n\n\n\n\n\nData from open-meteo.com"
+    "text": "Wednesday\nToday\nThursday\n15/02\nFriday\n16/02\nSaturday\n17/02\nSunday\n18/02\n\n\nCloudy\nCloudy\nRain\nMainly Sunny\nLight Drizzle\n\n\nthermostat 19°C\nthermostat 12°C\nthermostat 15°C\nthermostat 16°C\nthermostat 14°C\n\n\nthermostat 6°C\nthermostat 9°C\nthermostat 9°C\nthermostat 6°C\nthermostat 2°C\n\n\nair 9 Km/h\nair 14 Km/h\nair 9 Km/h\nair 20 Km/h\nair 9 Km/h\n\n\nwater_drop 0 mm\nwater_drop 0.0 mm\nwater_drop 10.9 mm\nwater_drop 0.0 mm\nwater_drop 0.2 mm\n\n\n\n\n\nData from open-meteo.com"
   },
   {
     "objectID": "about.html",
