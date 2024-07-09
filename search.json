@@ -1,16 +1,16 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Weather in Montpellier in 4 days",
-    "section": "",
-    "text": "Tuesday\nToday\nWednesday\n10/07\nThursday\n11/07\nFriday\n12/07\nSaturday\n13/07\n\n\nCloudy\nSunny\nCloudy\nLight Drizzle\nCloudy\n\n\nthermostat 29°C\nthermostat 32°C\nthermostat 32°C\nthermostat 30°C\nthermostat 29°C\n\n\nthermostat 18°C\nthermostat 21°C\nthermostat 21°C\nthermostat 21°C\nthermostat 19°C\n\n\nair 15 Km/h\nair 14 Km/h\nair 14 Km/h\nair 34 Km/h\nair 24 Km/h\n\n\nwater_drop 0 mm\nwater_drop 0.0 mm\nwater_drop 0.0 mm\nwater_drop 1.4 mm\nwater_drop 0 mm\n\n\n\n\n\nData from open-meteo.com"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Weather in Montpellier in 4 days",
+    "section": "",
+    "text": "Tuesday\nToday\nWednesday\n10/07\nThursday\n11/07\nFriday\n12/07\nSaturday\n13/07\n\n\nCloudy\nSunny\nCloudy\nLight Drizzle\nCloudy\n\n\nthermostat 29°C\nthermostat 32°C\nthermostat 32°C\nthermostat 30°C\nthermostat 29°C\n\n\nthermostat 18°C\nthermostat 21°C\nthermostat 21°C\nthermostat 21°C\nthermostat 19°C\n\n\nair 15 Km/h\nair 14 Km/h\nair 14 Km/h\nair 34 Km/h\nair 24 Km/h\n\n\nwater_drop 0 mm\nwater_drop 0.0 mm\nwater_drop 0.0 mm\nwater_drop 1.4 mm\nwater_drop 0 mm\n\n\n\n\n\nData from open-meteo.com"
   }
 ]
