@@ -11,7 +11,7 @@
 ## About the table
 You will find in the table:
 - The date in the 1st line
-- Today's weather icon in the 2nd line
+- Weather icon in the 2nd line
 - The maximum temperature in the 3rd line
 - The minimum temperature in the 4th line
 - The average wind in the 5th line
