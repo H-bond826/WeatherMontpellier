@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-19bbcc6d301408316d57746eade88bff.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div id="a27bcbd8" class="cell" data-execution_count="1">
+<div id="d3c61ad4" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display">
 
 
@@ -166,7 +166,7 @@ Today</td>
 29/11</td>
 </tr>
 <tr class="even" title="icons" style="background-color: rgb(174, 222, 252)">
-<td style="border-right: 3px solid rgb(255, 228, 3); border-left: 3px solid rgb(255, 228, 3)"><img src="Icons/wi-rain-wind.svg" title="Rain" class="img-fluid"><strong>Rain</strong></td>
+<td style="border-right: 3px solid rgb(255, 228, 3); border-left: 3px solid rgb(255, 228, 3)"><img src="Icons/wi-sprinkle.svg" title="Light Drizzle" class="img-fluid"><strong>Light Drizzle</strong></td>
 <td><img src="Icons/wi-cloud.svg" title="Cloudy" class="img-fluid"><strong>Cloudy</strong></td>
 <td><img src="Icons/wi-cloud.svg" title="Cloudy" class="img-fluid"><strong>Cloudy</strong></td>
 <td><img src="Icons/wi-day-cloudy.svg" title="Partly Cloudy" class="img-fluid"><strong>Partly Cloudy</strong></td>
@@ -188,14 +188,14 @@ Today</td>
 </tr>
 <tr class="odd" title="Wind Speed" style="background-color : rgb(222, 236, 252)">
 <td style="border-right: 3px solid rgb(255, 228, 3); border-left: 3px solid rgb(255, 228, 3)"><span class="material-icons">air</span> 30 Km/h</td>
-<td><span class="material-icons">air</span> 9 Km/h</td>
 <td><span class="material-icons">air</span> 8 Km/h</td>
+<td><span class="material-icons">air</span> 9 Km/h</td>
 <td><span class="material-icons">air</span> 9 Km/h</td>
 <td><span class="material-icons">air</span> 9 Km/h</td>
 </tr>
 <tr class="even" title="Precipitation" style="background-color : rgb(178, 188, 198)">
-<td style="border-bottom: 3px solid rgb(255, 228, 3); border-right: 3px solid rgb(255, 228, 3); border-left: 3px solid rgb(255, 228, 3)"><span class="material-icons">water_drop</span> 2 mm</td>
-<td><span class="material-icons">water_drop</span> 0.0 mm</td>
+<td style="border-bottom: 3px solid rgb(255, 228, 3); border-right: 3px solid rgb(255, 228, 3); border-left: 3px solid rgb(255, 228, 3)"><span class="material-icons">water_drop</span> 1 mm</td>
+<td><span class="material-icons">water_drop</span> 0.1 mm</td>
 <td><span class="material-icons">water_drop</span> 0.0 mm</td>
 <td><span class="material-icons">water_drop</span> 0.0 mm</td>
 <td><span class="material-icons">water_drop</span> 0 mm</td>
@@ -291,8 +291,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -403,7 +401,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
